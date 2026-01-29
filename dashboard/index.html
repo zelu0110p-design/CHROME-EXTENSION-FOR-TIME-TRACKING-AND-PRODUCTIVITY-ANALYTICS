@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productivity Dashboard</title>
+</head>
+<body>
+  <h1>Weekly Productivity Report</h1>
+  <pre id="output"></pre>
+  <script>
+    fetch('http://localhost:3000/report')
+      .then(res => res.json())
+      .then(data => document.getElementById('output').textContent = JSON.stringify(data, null, 2));
+  </script>
+</body>
+</html>

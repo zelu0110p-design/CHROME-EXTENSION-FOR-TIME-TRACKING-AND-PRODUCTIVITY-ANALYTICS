@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "Productivity Report Extension",
+  "version": "1.0",
+  "description": "Bookmark timestamps and track productivity analytics.",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
