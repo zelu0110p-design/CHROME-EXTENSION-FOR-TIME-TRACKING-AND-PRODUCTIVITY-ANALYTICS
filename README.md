@@ -30,7 +30,7 @@ This backend acts as a simple data collection and reporting service. While it do
 
   4. Dashboard Interface (index.html)
      
-The index.html file provides a minimal productivity dashboard for displaying the collected data index. It uses standard HTML and JavaScript to fetch data from the backend’s /report endpoint. The fetched JSON is rendered in a readable format using a <pre> element.
+The index.html file provides a minimal productivity dashboard for displaying the collected data index. It uses standard HTML and JavaScript to fetch data from the backend’s /report endpoint. The fetched JSON is rendered in a readable format using a "<pre>" element.
 This file shows how frontend applications can communicate with backend services using the Fetch API and display real-time analytics data without requiring complex frameworks.
 
   5. Chrome Extension Background Script (background.js)
