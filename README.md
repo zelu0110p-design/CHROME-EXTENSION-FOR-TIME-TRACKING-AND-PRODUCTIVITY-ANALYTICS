@@ -58,3 +58,7 @@ The popup.js file handles user interaction within the extension's popup file. Wh
   9. Conclusion
       
 Overall, this project successfully demonstrates a full-stack productivity tracking system, combining a Chrome extension frontend with a Node.js backend. It showcases key concepts such as browser APIs, local storage, RESTful services, and client-server communication. With enhancements such as database integration, authentication, and advanced analytics, this system could be expanded into a comprehensive productivity-monitoring tool.
+
+  10. Output
+      
+      <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fe747007-72dd-495b-a308-47758d54abe8" />
